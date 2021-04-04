@@ -28,7 +28,7 @@ public class TelaUm {
 		dadosUm.addEstq(quantidade);
 		
 		System.out.println("Dados atualizados ");
-		System.out.println(dados+", "+dadosUm);
+		System.out.println(dados+""+dadosUm);
 		System.out.println(" ");
 		
 		System.out.print("Quantidade a remover: ");	
@@ -36,7 +36,7 @@ public class TelaUm {
 		dadosUm.remEstq(quantidade);
 		
 		System.out.println("Dados atualizados ");
-		System.out.println(dados+", "+dadosUm);
+		System.out.println(dados+""+dadosUm);
 
 		sc.close();
 	}
